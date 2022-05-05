@@ -9,7 +9,7 @@
 .main {
     width: 35%;
     background: rgba(255, 255, 255, 0.25);
-    color: #ffffff;
+    color: black;
     text-align: center;
     padding: 50px;
     position: absolute;
@@ -25,9 +25,12 @@
     height: 150px;
 }
 .main h1 {
-    font-size: 40px;
-    letter-spacing: 3px;
+    color: #333;
+    font-family: CerebriSans-Bold,-apple-system,BlinkMacSystemFont,Roboto,sans-serif;
+    font-size: 2.5em;
     font-weight: 400;
+    margin-bottom: 0;
+    text-align: center;
 }
 
 .main h5 {
@@ -38,18 +41,12 @@
 }
 
 .main p {
-    text-align: justify;
-    font-size: 16px;
-    font-weight: 100;
+    color: #666;
+    font-family: CerebriSans-Regular,-apple-system,BlinkMacSystemFont,Roboto,sans-serif;
+    text-align: center
 }
 
 .github{
-    width: 30px;
-    height: 30px;
-}
-
-.instagram {
-    margin-left: 10px;
     width: 30px;
     height: 30px;
 }
